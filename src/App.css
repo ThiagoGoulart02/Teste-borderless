@@ -1,0 +1,204 @@
+.header {
+  width: 100%;
+  height: 65px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header h1,
+p {
+  margin: 10px;
+}
+
+.header-middle {
+  width: 350px;
+  height: 90%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-middle i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #181818;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #4b4b4b;
+}
+
+input:hover {
+  background-color: #121212;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: #181818;
+  color: #fff;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+button:hover {
+  background-color: #121212;
+}
+
+.img-background {
+  width: 100%;
+  height: 300px;
+  background-color: #181818;
+  color: #c0bfbf;
+}
+
+.img-background {
+  justify-content: space-between;
+  display: flex;
+  align-items: end;
+}
+
+.logo {
+  margin: 10px;
+  width: 30%;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.nft-name {
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  gap: 5px;
+}
+
+.nft-name i {
+  font-size: 1.3rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.infos {
+  display: flex;
+  margin: 5px;
+  gap: 10px;
+}
+
+.infos div {
+  flex-direction: column;
+}
+
+.description {
+  margin: 0;
+  color: #fff;
+}
+
+.more-description {
+  display: flex;
+  margin-top: -20px;
+}
+
+.content-header {
+  color: #fff;
+}
+
+.content {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  margin-top: 15px;
+}
+
+.sidebar {
+  width: 23%;
+  color: #ffff;
+}
+
+.sidebar h1 {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.sidebar button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.cards {
+  margin-right: 10px;
+  width: 100%;
+  border-radius: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, 220px);
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 20px 20px 0 0;
+}
+
+.card {
+  width: 220px;
+  height: auto;
+  background-color: #181818;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #fff;
+  padding-bottom: 10px;
+  flex-direction: column;
+}
+
+.card h3 {
+  margin: 10px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.card-header button {
+  width: 25%;
+  padding: 2px;
+  border: #fff 1px solid;
+  border-radius: 5px;
+}
